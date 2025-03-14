@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Header from "@/app/components/Header";
+import { FaLaptopCode, FaPalette, FaMobileAlt, FaChartBar } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -27,6 +28,47 @@ export default function Home() {
             >
               Services
             </Link>
+          </div>
+        </div>
+
+        {/* Services Section */}
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-6">
+          {/* Website Design */}
+          <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-center space-x-4">
+            <FaLaptopCode className="text-blue-600 text-4xl" />
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Website Design</h3>
+              <p className="text-gray-700 dark:text-gray-300">Custom websites built with modern technologies.</p>
+            </div>
+          </div>
+
+          {/* UI/UX Design */}
+          <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-center space-x-4">
+            <FaPalette className="text-green-600 text-4xl" />
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">UI/UX Design</h3>
+              <p className="text-gray-700 dark:text-gray-300">Beautiful and intuitive interfaces.</p>
+            </div>
+          </div>
+
+          {/* Mobile Apps */}
+          <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-center space-x-4">
+            <FaMobileAlt className="text-purple-600 text-4xl" />
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Mobile Apps</h3>
+              <p className="text-gray-700 dark:text-gray-300">Native and cross-platform mobile applications.</p>
+            </div>
+          </div>
+
+          {/* Data Analytics */}
+          <div className="p-6 bg-white dark:bg-gray-800 rounded-lg shadow-md flex items-center space-x-4">
+            <FaChartBar className="text-orange-600 text-4xl" />
+            <div>
+              <h3 className="text-xl font-bold text-gray-900 dark:text-white">Data Analytics</h3>
+              <p className="text-gray-700 dark:text-gray-300">
+                Data analysis and cleaning with dashboards built using PowerBI.
+              </p>
+            </div>
           </div>
         </div>
       </main>
