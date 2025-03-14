@@ -71,6 +71,22 @@ export default function Home() {
             </div>
           </div>
         </div>
+
+        {/* Call-to-Action Box */}
+        <div className="mt-16 bg-white dark:bg-gray-800 rounded-lg shadow-lg p-10 text-center max-w-3xl mx-auto">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Ready to start your project?</h2>
+          <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">
+            Let's work together to create something amazing. Contact us today to discuss your project and get a free consultation.
+          </p>
+          <div className="mt-6">
+            <Link
+              href="/contact"
+              className="px-6 py-3 bg-gray-900 text-white dark:bg-gray-100 dark:text-gray-900 rounded-lg hover:opacity-80 transition"
+            >
+              Contact us
+            </Link>
+          </div>
+        </div>
       </main>
     </div>
   );
