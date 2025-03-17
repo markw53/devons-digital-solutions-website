@@ -77,17 +77,17 @@ const Services = () => {
             </Link>
           </div>
 
-          {/* Data Analytics Box */}
+          {/* Digital Analytics Box */}
           <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-md">
-            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Data Analytics</h2>
+            <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Digital Analytics</h2>
             <p className="mt-2 text-gray-700 dark:text-gray-300">
-              Unlock insights from your data with cutting-edge analytics and machine learning solutions.
+              Data-driven insights to help you understand your users and improve your digital presence.
             </p>
             <ul className="mt-4 text-gray-700 dark:text-gray-300 font-bold list-disc list-inside">
-              <li>Business Intelligence</li>
-              <li>Data Engineering</li>
-              <li>Machine Learning Models</li>
-              <li>Predictive Analytics</li>
+              <li>User Behaviour Tracking</li>
+              <li>Conversion Tracking</li>
+              <li>Performance Monitoring</li>
+              <li>Custom Reporting</li>
             </ul>
             <Link href="/contact">
               <button className="mt-4 px-6 py-3 bg-gray-900 text-white dark:bg-white dark:text-gray-900 rounded-lg font-bold text-lg hover:bg-gray-700 dark:hover:bg-gray-300 transition">
@@ -95,6 +95,19 @@ const Services = () => {
               </button>
             </Link>
           </div>
+        </section>
+
+        {/* Call to Action Section */}
+        <section className="mt-16 bg-gray-200 dark:bg-gray-800 py-16 text-center">
+          <h2 className="text-3xl font-bold text-gray-900 dark:text-white">Ready to transform your digital presence?</h2>
+          <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">
+            Let's discuss how we can help your business grow with our professional web development services.
+          </p>
+          <Link href="/contact">
+            <button className="mt-6 px-8 py-4 bg-gray-900 text-white dark:bg-white dark:text-gray-900 rounded-lg font-bold text-lg hover:bg-gray-700 dark:hover:bg-gray-300 transition">
+              Schedule a Consultation
+            </button>
+          </Link>
         </section>
       </main>
       <Footer />
