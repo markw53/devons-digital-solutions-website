@@ -69,7 +69,7 @@ export default function Footer() {
             <a href="https://twitter.com/yourhandle" target="_blank" rel="noopener noreferrer">
               <FaXTwitter className="text-gray-400 hover:text-white text-2xl" />
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/mark-workman-02a944120/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-gray-400 hover:text-white text-2xl" />
             </a>
           </div>
