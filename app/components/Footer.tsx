@@ -81,7 +81,7 @@ export default function Footer() {
 
       {/* Copyright section */}
       <div className="text-center text-gray-400 text-sm mt-4">
-        &copy; 2025 isladogsoftware. All rights reserved.
+        &copy; 2025 WolfByte. All rights reserved.
       </div>
     </footer>
   );
