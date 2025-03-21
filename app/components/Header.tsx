@@ -8,7 +8,7 @@ export default function Header() {
         {/* Logo */}
         <div className="flex items-center space-x-3">
         <Image src="/dds-logo.webp" alt="WolfByte Logo" width={40} height={40} />
-          <span className="text-2xl font-bold text-gray-900 dark:text-white">Devons Digital Solutions</span>
+          <span className="text-2xl font-bold text-gray-900 dark:text-white">Devon's Digital Solutions</span>
         </div>
 
         {/* Navigation */}

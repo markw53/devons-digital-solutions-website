@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Isladogsoftware</title>
+        <title>Devon's Digital Solutions</title>
         <meta name="description" content="Turning your ideas into a digital reality" />
       </Head>
       <Header />

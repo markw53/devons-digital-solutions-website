@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         {/* Column 1 - Branding */}
         <div>
-          <h2 className="text-2xl font-bold">isladogsoftware</h2>
+          <h2 className="text-2xl font-bold">DevonsDigitalSolutions</h2>
           <p className="mt-4 text-gray-400">
             Crafting digital experiences that make a difference.
           </p>
@@ -81,7 +81,7 @@ export default function Footer() {
 
       {/* Copyright section */}
       <div className="text-center text-gray-400 text-sm mt-4">
-        &copy; 2025 Devons Digital Solutions. All rights reserved.
+        &copy; 2025 Devon's Digital Solutions. All rights reserved.
       </div>
     </footer>
   );
