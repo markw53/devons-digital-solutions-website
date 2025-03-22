@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaXTwitter, FaLinkedin } from "react-icons/fa6";
+import { FaXTwitter, FaLinkedin, FaFacebook } from "react-icons/fa6";
 
 export default function Footer() {
   return (
@@ -71,6 +71,9 @@ export default function Footer() {
             </a>
             <a href="https://www.linkedin.com/in/mark-workman-02a944120/" target="_blank" rel="noopener noreferrer">
               <FaLinkedin className="text-gray-400 hover:text-white text-2xl" />
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61574139764538" target="_blank" rel="noopener noreferrer">
+              <FaFacebook className="text-gray-400 hover:text-white text-2xl" />
             </a>
           </div>
         </div>
